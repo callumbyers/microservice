@@ -1,0 +1,40 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testMatch": [
+      "**/__tests__/*.+(ts|tsx|js)"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callumbyers/microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callumbyers/microservice/issues"
+  },
+  "homepage": "https://github.com/callumbyers/microservice#readme",
+  "dependencies": {
+    "aws-sdk": "^2.658.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^25.4.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^8.0.8",
+    "supertest": "^4.0.2",
+    "uniqid": "^5.2.0"
+  }
+}
