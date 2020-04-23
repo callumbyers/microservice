@@ -13,6 +13,8 @@ To run locally
 Download and install AWS Profile Manager
 https://github.com/DavidWells/aws-profile-manager
 
+Run the profile manager
+
 Add AccessKey and SecretAccessKey received in separate file
 
 Clone down this repository
