@@ -7,7 +7,7 @@ This application serves two purposes.
 
 By running this application, you will have the ability to upload files to an assigned S3 bucket. To confirm the file was uploaded properly, you can immediately download it by clicking the download link that appears.
 
-#Run the App
+##Run the App
 There are two separate projects to run at the same time.
 
 1) To start the Koa server
@@ -18,7 +18,7 @@ There are two separate projects to run at the same time.
     -npm install
     -npm start
 
-#Tests
+##Tests
 
 Tests can be run in either project folder using npm test.
 
