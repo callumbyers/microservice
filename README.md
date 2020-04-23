@@ -17,7 +17,7 @@ Add AccessKey and SecretAccessKey received in separate file
 
 Clone down this repository
 
-There are two separate projects to run (in separate terminal windows).
+There are two separate projects to run (in separate terminals).
 
 1) To start the Koa server
     npm install
