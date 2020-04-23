@@ -14,7 +14,7 @@ function App() {
 
   const uploadDocument = (evt) => {
     const fileToUpload = evt.target.files[0];
-    debugger
+    
     if(fileToUpload && fileToUpload.size <= 625000) {
       fetch('/file', {
         method: 'POST',
