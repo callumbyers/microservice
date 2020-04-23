@@ -10,6 +10,11 @@ By running this application, you will have the ability to upload files to an ass
 ## Run the App
 To run locally
 
+Download and install AWS Profile Manager
+https://github.com/DavidWells/aws-profile-manager
+
+Add AccessKey and SecretAccessKey received in separate file
+
 Clone down this repository
 
 There are two separate projects to run (in separate terminal windows).
