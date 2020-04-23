@@ -5,7 +5,6 @@ const uniqid = require('uniqid');
 
 const TEMP_BUCKET = 'tp-team-image';
 
-AWS.config.loadFromPath('./config.json');
 AWS.config.update({region: 'us-east-2'});
 
 const router = new Router();

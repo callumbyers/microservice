@@ -13,7 +13,7 @@ describe('CREATE URL POST', () => {
         const res = await request(app.callback())
             .post('/file')
             .send(JSON.stringify({
-                fileName: 'test'
+                fileName: 'test.jpg'
             }))
             .set('Accept', 'application/json');
         expect(res.text).toBe('OKAY');
