@@ -1,7 +1,4 @@
-import Card from './Card/Card';
-import Table from './Table/Table';
+import Card from "./Card/Card";
+import Table from "./Table/Table";
 
-export { 
-    Card,
-    Table
-}
+export { Card, Table };
